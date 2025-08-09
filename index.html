@@ -1,17 +1,13 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NoorCoin (NRC) - Official Website</title>
+    <title>NoorCoin</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap');
-
         body {
             margin: 0;
-            padding: 0;
-            font-family: 'Orbitron', sans-serif;
+            font-family: 'Arial', sans-serif;
             background-color: #000;
             color: #FFD700;
             display: flex;
@@ -19,102 +15,93 @@
             align-items: center;
             justify-content: space-between;
             min-height: 100vh;
-            text-align: center;
         }
 
         header {
-            margin-top: 30px;
+            text-align: center;
+            padding: 20px;
         }
 
         header img {
             width: 150px;
             height: auto;
-            border-radius: 50%;
-            border: 3px solid #FFD700;
-            box-shadow: 0 0 20px #FFD700;
         }
 
         h1 {
             font-size: 2.5rem;
-            margin: 20px 0 10px;
-        }
-
-        p {
-            font-size: 1rem;
-            color: #ccc;
-            max-width: 600px;
-            margin: 0 auto 30px;
+            margin-top: 10px;
         }
 
         .buttons {
             display: flex;
             flex-direction: column;
             gap: 15px;
-            margin-bottom: 50px;
+            margin: 30px 0;
+            width: 80%;
+            max-width: 300px;
         }
 
         .buttons a {
             text-decoration: none;
-            color: #000;
             background-color: #FFD700;
-            padding: 15px 30px;
-            border-radius: 50px;
+            color: #000;
+            padding: 15px;
             font-size: 1.2rem;
             font-weight: bold;
-            transition: 0.3s ease;
-        }
-
-        .buttons a:hover {
-            background-color: #000;
-            color: #FFD700;
-            border: 2px solid #FFD700;
-        }
-
-        footer {
-            margin-bottom: 20px;
-        }
-
-        .socials a {
-            margin: 0 10px;
-            font-size: 1.5rem;
-            color: #FFD700;
+            border-radius: 8px;
+            text-align: center;
             transition: 0.3s;
         }
 
-        .socials a:hover {
-            color: #fff;
+        .buttons a:hover {
+            background-color: #ffcc00;
+            transform: scale(1.05);
         }
 
-        @media (max-width: 600px) {
-            h1 {
-                font-size: 2rem;
-            }
-            .buttons a {
-                font-size: 1rem;
-                padding: 12px 25px;
-            }
+        footer {
+            text-align: center;
+            padding: 15px;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .social-icons a {
+            color: #FFD700;
+            font-size: 1.5rem;
+            transition: 0.3s;
+        }
+
+        .social-icons a:hover {
+            color: #fff;
         }
     </style>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
+
     <header>
-        <img src="logo.jpg" alt="NoorCoin Logo">
-        <h1>🚀 NoorCoin (NRC)</h1>
-        <p>The rare cryptocurrency with a powerful community. Join the movement!</p>
+        <img src="logo.png" alt="NoorCoin Logo">
+        <h1>NoorCoin</h1>
     </header>
 
     <div class="buttons">
-        <a href="roadmap.html">📜 Roadmap</a>
-        <a href="whitepaper.html">📄 Whitepaper</a>
-        <a href="https://jup.ag/tokens/GZJXJtctfsKJ3mk1jHQVTi5WzPupqtEYNHFmyV2Fpump" target="_blank">💰 Buy Now</a>
+        <a href="roadmap.html">Roadmap</a>
+        <a href="whitepaper.html">Whitepaper</a>
+        <a href="https://jup.ag/tokens/GZJXJtctfsKJ3mk1jHQVTi5WzPupqtEYNHFmyV2Fpump" target="_blank">Buy Now</a>
     </div>
 
     <footer>
-        <div class="socials">
-            <a href="https://t.me/noorocoin" target="_blank">📢 Telegram</a>
-            <a href="https://twitter.com" target="_blank">🐦 Twitter</a>
+        <div class="social-icons">
+            <a href="https://t.me/noorocoin" target="_blank"><i class="fab fa-telegram"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-discord"></i></a>
         </div>
-        <p style="font-size: 0.8rem; color: #555;">© 2025 NoorCoin — All Rights Reserved</p>
+        <p>&copy; 2025 NoorCoin. All Rights Reserved.</p>
     </footer>
+
 </body>
 </html>
